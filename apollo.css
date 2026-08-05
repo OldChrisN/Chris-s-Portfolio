@@ -1,0 +1,445 @@
+header{text-align: center;}
+
+.Apollomain1 img{
+    width: 1300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Main1 h2{text-align: center;}
+
+.Main1{
+    display: flex;
+    justify-content: center;
+}
+
+/*Above this line is one of the main giant renders while below is the code for the first row*/
+
+.Apollorow1 img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow1 h3{text-align: center;}
+
+.Apollorow1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 1 below is row 2*/
+
+.Apollorow2 img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.ApolloPic6 img{
+    width: 530px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow2 h3{text-align: center;}
+
+.Apollorow2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 2 below is row 3*/
+
+.Apollorow3 img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow3 h3{text-align: center;}
+
+.Apollorow3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 3 below is row 4*/
+
+.Apollorow4 img{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.ApolloPic12 img{
+    width: 375px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow4 h3{text-align: center;}
+
+.Apollorow4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 4 below is row 5*/
+
+.Apollorow5 img{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.ApolloPic15 img{
+    width: 375px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow5 h3{text-align: center;}
+
+.Apollorow5{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 5 below is row 6*/
+
+.Apollorow6 img{
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow6 h3{
+    text-align: center;
+}
+
+.Apollorow6{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 6 below is row 7*/
+
+.Apollorow7 img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow7 h3{text-align: center;}
+
+.Apollorow7{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 7 below is the 2nd main image*/
+
+.Apollomain2 img{
+    width: 1300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Main2 h3{text-align: center;}
+
+.Main2{
+    display: flex;
+    justify-content: center;
+}
+
+/*Above is Apollomain2 below is row 8*/
+
+.Apollorow8 img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow8 h3{text-align: center;}
+
+.Apollorow8{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 8 and below is row 9*/
+
+.Apollorow9 img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow9 h3{text-align: center;}
+
+.Apollorow9{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 9 and below is row 10*/
+
+.Apollorow10 img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow10 h3{text-align: center;}
+
+.Apollorow10{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 10 and below is row 11*/
+
+.Apollorow11 img{
+    width: 460px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow11 h3{text-align: center;}
+
+.Apollorow11{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Above is row 11 and below is row 12*/
+
+.Apollorow12 img{
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Apollorow12 h3{text-align: center;}
+
+.Apollorow12{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Below is the footer work*/
+
+footer{text-align: center;}
+
+/*Adaptive screen below*/
+
+@media (max-width: 767px) {
+    .Apollorow1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow10{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow11{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Apollorow12{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.Apollorow1, .Apollorow2, .Apollorow3, .Apollorow4, .Apollorow5, .Apollorow6, .Apollorow7, .Apollorow8, .Apollorow9, .Apollorow10, .Apollorow11, .Apollorow12{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px; 
+    padding: 10px;
+}
+
+/*a attribute work*/
+
+a{display: inline-block;}
+
+/*a attribute work*/
+
+/*This is where the lightbox code is*/
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;   
+    right: 0;  
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+#lightbox.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{cursor: pointer;}
+
+#lightbox img {
+    max-width: 90%;    
+    max-height: 90vh;  
+    object-fit: contain; 
+    border-radius: 4px;
+}
+
+#lightbox .lightbox-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    font-size: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1001;
+    border-radius: 4px;
+}
+
+#lightbox .lightbox-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#lightbox .prev-btn {
+    left: 20px;
+}
+
+#lightbox .next-btn {
+    right: 20px;
+}
+
+#lightbox .close-btn {
+    top: 20px;
+    right: 30px;
+    left: auto;
+    transform: none;
+    font-size: 50px;
+    background: none;
+}
+
+#lightbox .close-btn:hover {
+    background: none;
+    color: #ff4d4d;
+}
+
+/* Force the image inside the lightbox to have a default/auto cursor, overriding global img rules */
+#lightbox img {
+  cursor: default !important;
+}
+
+/*From here I just try to make things look good*/
+
+
+h1{
+    font-family: "Space Grotesk";
+}
+
+p{
+    font-family: "Space Grotesk";
+}
+
+h2{
+    font-family: "Space Grotesk";
+}
+
+h3{
+    font-family: "Space Grotesk";
+}
+
+a h2{
+    font-family: "Space Grotesk";
+    color: rgb(104, 6, 252)
+;}
+
+body{background-color: hsl(210, 16%, 93%);}
+
+
+.Main1 div, .Apollorow1 div , .Apollorow2 div, .Apollorow3 div, .Apollorow4 div, .Apollorow5 div, .Apollorow6 div, .Apollorow7 div, .Main2 div, .Apollorow8 div, .Apollorow9 div, .Apollorow10 div, .Apollorow11 div, .Apollorow12 div{
+    border: solid;
+    border-color: black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.Main1 img:hover, .Apollorow1 img:hover, .Apollorow2 img:hover, .Apollorow3 img:hover, .Apollorow4 img:hover, .Apollorow5 img:hover, .Apollorow6 img:hover, .Apollorow7 img:hover, .Main2 img:hover, .Apollorow8 img:hover, .Apollorow9 img:hover, .Apollorow10 img:hover, .Apollorow11 img:hover, .Apollorow12 img:hover {
+    transform: scale(1.03); 
+    opacity: 0.95;     
+}
+
+.Main1 div:hover, .Apollorow1 div:hover, .Apollorow2 div:hover, .Apollorow3 div:hover, .Apollorow4 div:hover, .Apollorow5 div:hover, .Apollorow6 div:hover, .Apollorow7 div:hover, .Main2 div:hover, .Apollorow8 div:hover, .Apollorow9 div:hover, .Apollorow10 div:hover, .Apollorow11 div:hover, .Apollorow12 div:hover {
+    border-color: rgb(69, 69, 69);
+    background-color: rgb(205, 205, 205);
+}
+
+a:hover{
+    color: blue;
+}
