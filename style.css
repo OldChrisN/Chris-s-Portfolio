@@ -1,0 +1,321 @@
+.Intro{
+    text-align: center;
+}
+
+.Intro h1{
+    padding: 10px;
+    margin-bottom: 0.1rem; 
+}
+.Intro p{
+    display: inline-block;
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.MainCharacter img{
+    width: 1400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Mainmaincharacter h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Mainmaincharacter{
+    display: flex;
+    justify-content: center;
+}
+
+/* Apollo 13 render styling normally everything above the note is what I'm talking about */
+
+.Mainimages img{
+    width: 500px;
+    max-width:100%;
+    height: auto;
+}
+.PawnRender img{width: 280px;}
+
+.Mainimages h3{text-align: center;}
+
+.Mainimages{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*Above is the main images with Kirby, the Earth and the Pawn styling*/
+
+.Donut{
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+}
+
+.CoolApollo11 img{
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+}
+
+.WholeDonut h3{
+    text-align: center;
+}
+
+.CoolApollo11 h3{
+    text-align: center;
+}
+
+.ApolloDonut{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*If anyone reads this in the future I put these dumb notes around as a bookmark for certain parts of my webpage. On top is the APOLLO DONUT*/
+
+.CasketBlackBird img{
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+}
+
+.CasketBlackBird{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.BoyinBlack h3{
+    text-align: center;
+}
+
+.BlackBird h3{
+    text-align: center;
+}
+/*On top is the CasketBlackBird group*/
+
+.Corsairdiv img{
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+}
+
+.SLS img{
+    width: 524px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.CorsairStory{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.Corsairlink{
+    text-align: center;
+}
+
+.SLSlink{
+    text-align: center;
+}
+
+.Originals img{
+    width: 670px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Originals h3{
+    text-align: center;
+}
+
+.OriginalOriginals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*This is wherre Behind the scenes is*/
+
+.Behindscenes img{
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Behindscenes h3{
+    text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+    .Mainimages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ApolloDonut{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .CasketBlackBird{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .CorsairStory{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .OriginalOriginals{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.Mainimages, .ApolloDonut, .CasketBlackBird, .CorsairStory, .OriginalOriginals {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px; 
+    padding-bottom: 20px;
+}
+
+
+footer{text-align: center;}
+
+/*This is where the lightbox code is*/
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;   
+    right: 0;  
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+#lightbox.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{cursor: pointer;}
+
+#lightbox img {
+    max-width: 90%;    
+    max-height: 90vh;  
+    object-fit: contain; 
+    border-radius: 4px;
+}
+
+#lightbox .lightbox-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    font-size: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1001;
+    border-radius: 4px;
+}
+
+#lightbox .lightbox-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#lightbox .prev-btn {
+    left: 20px;
+}
+
+#lightbox .next-btn {
+    right: 20px;
+}
+
+#lightbox .close-btn {
+    top: 20px;
+    right: 30px;
+    left: auto;
+    transform: none;
+    font-size: 50px;
+    background: none;
+}
+
+#lightbox .close-btn:hover {
+    background: none;
+    color: #ff4d4d;
+}
+
+/* Force the image inside the lightbox to have a default/auto cursor, overriding global img rules */
+#lightbox img {
+  cursor: default !important;
+}
+
+/*From here I just try to make things look good*/
+
+
+h1{
+    font-family: "Space Grotesk";
+}
+
+p{
+    font-family: "Space Grotesk";
+}
+
+h2{
+    font-family: "Space Grotesk";
+}
+
+h3{
+    font-family: "Space Grotesk";
+}
+
+a h2{
+    font-family: "Space Grotesk";
+    color: rgb(104, 6, 252)
+;}
+
+body{background-color: hsl(210, 16%, 93%);}
+
+
+.Mainimages div, .ApolloDonut div, .CasketBlackBird div, .CorsairStory div, .OriginalOriginals div{
+    border: solid;
+    border-color: black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+
+.Mainimages img:hover, .ApolloDonut img:hover, .CasketBlackBird img:hover, .CorsairStory img:hover, .OriginalOriginals img:hover {
+    transform: scale(1.03); 
+    opacity: 0.95;     
+}
+
+.Mainimages div:hover, .ApolloDonut div:hover, .CasketBlackBird div:hover, .CorsairStory div:hover, .OriginalOriginals div:hover {
+    border-color: rgb(69, 69, 69);
+    background-color: rgb(205, 205, 205);
+}
+
+a:hover{
+    color: blue;
+}
