@@ -319,3 +319,10 @@ body{background-color: hsl(210, 16%, 93%);}
 a:hover{
     color: blue;
 }
+
+/*Main guy*/
+
+.Mainmaincharacter img{
+    border-radius: 5px;
+    overflow: hidden;
+}
