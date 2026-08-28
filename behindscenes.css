@@ -21,7 +21,7 @@ header p{
     padding: 20px;
 }
 
-.row1 img, .row2 img, .row3 img, .row4 img{
+.row1 img, .row2 img, .row3 img, .row4 img, .beforerow1 img{
     width: 450px;
     max-width: 100%;
     height: auto;
@@ -34,7 +34,7 @@ header p{
 }
 
 .pic9 img{
-    width: 470px;
+    width: 450px;
     max-width: 100%;
     height: auto;
 }
@@ -51,9 +51,11 @@ header p{
 
 /*Post process row above*/
 
-.row1 h3, .row2 h3, .row3 h3, .row4 h3, .row5 h3, .row6 h3{text-align: center;}
+.row1 h3, .row2 h3, .row3 h3, .row4 h3, .row5 h3, .row6 h3, .beforerow1 h3{
+    text-align: center;
+}
 
-.row1, .row2, .row3, .row4, .row5, .row6{
+.row1, .row2, .row3, .row4, .row5, .row6, .beforerow1{
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -162,7 +164,7 @@ a h2{
 body{background-color: hsl(210, 16%, 93%);}
 
 
-.row1 div, .row2 div, .row3 div, .row4 div, .row5 div, .row6 div{
+.row1 div, .row2 div, .row3 div, .row4 div, .row5 div, .row6 div, .beforerow1 div{
     border: solid;
     border-color: black;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
@@ -172,12 +174,12 @@ body{background-color: hsl(210, 16%, 93%);}
 
 
 
-.row1 img:hover, .row2 img:hover, .row3 img:hover, .row4 img:hover, .row5 img:hover, .row6 img:hover{
+.row1 img:hover, .row2 img:hover, .row3 img:hover, .row4 img:hover, .row5 img:hover, .row6 img:hover, .beforerow1 img:hover{
     transform: scale(1.03); 
     opacity: 0.95;     
 }
 
-.row1 div:hover, .row2 div:hover, .row3 div:hover, .row4 div:hover, .row5 div:hover, .row6 div:hover{
+.row1 div:hover, .row2 div:hover, .row3 div:hover, .row4 div:hover, .row5 div:hover, .row6 div:hover, .beforerow1 div:hover{
     border-color: rgb(69, 69, 69);
     background-color: rgb(205, 205, 205);
 }
