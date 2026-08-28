@@ -14,15 +14,14 @@
 }
 
 
-.MainCharacter img{
-    width: 1400px;
+.MainCharacter img, .MainCharacter2 img{
+    width: 700px;
     max-width: 100%;
     height: auto;
 }
 
-.Mainmaincharacter h1{
+.Mainmaincharacter h3{
     text-align: center;
-    text-decoration: underline;
 }
 
 .Mainmaincharacter{
@@ -185,12 +184,12 @@
     }
 }
 
-.Mainimages, .ApolloDonut, .CasketBlackBird, .CorsairStory, .OriginalOriginals {
+.Mainimages, .ApolloDonut, .CasketBlackBird, .CorsairStory, .OriginalOriginals, .Mainmaincharacter{
     display: flex;
     justify-content: center; 
     align-items: center;
     gap: 40px; 
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 
@@ -296,7 +295,7 @@ a h2{
 body{background-color: hsl(210, 16%, 93%);}
 
 
-.Mainimages div, .ApolloDonut div, .CasketBlackBird div, .CorsairStory div, .OriginalOriginals div{
+.Mainimages div, .ApolloDonut div, .CasketBlackBird div, .CorsairStory div, .OriginalOriginals div, .Mainmaincharacter div{
     border: solid;
     border-color: black;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
@@ -306,12 +305,12 @@ body{background-color: hsl(210, 16%, 93%);}
 
 
 
-.Mainimages img:hover, .ApolloDonut img:hover, .CasketBlackBird img:hover, .CorsairStory img:hover, .OriginalOriginals img:hover {
+.Mainimages img:hover, .ApolloDonut img:hover, .CasketBlackBird img:hover, .CorsairStory img:hover, .OriginalOriginals img:hover, .Mainmaincharacter img:hover{
     transform: scale(1.03); 
     opacity: 0.95;     
 }
 
-.Mainimages div:hover, .ApolloDonut div:hover, .CasketBlackBird div:hover, .CorsairStory div:hover, .OriginalOriginals div:hover {
+.Mainimages div:hover, .ApolloDonut div:hover, .CasketBlackBird div:hover, .CorsairStory div:hover, .OriginalOriginals div:hover, .Mainmaincharacter div:hover{
     border-color: rgb(69, 69, 69);
     background-color: rgb(205, 205, 205);
 }
@@ -320,9 +319,6 @@ a:hover{
     color: blue;
 }
 
-/*Main guy*/
 
-.Mainmaincharacter img{
-    border-radius: 5px;
-    overflow: hidden;
-}
+
+
